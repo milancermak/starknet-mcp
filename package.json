@@ -1,0 +1,20 @@
+{
+  "name": "starknet-mcp",
+  "license": "MIT",
+  "module": "index.ts",
+  "version": "0.1.0",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^22.10.7"
+  },
+  "peerDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.1.1",
+    "starknet": "^6.11.0",
+    "zod": "^3.24.1",
+    "zod-to-json-schema": "^3.24.1"
+  }
+}
