@@ -1,4 +1,4 @@
-import { RpcProvider } from "starknet";
+import { hash, RpcProvider } from "starknet";
 import { Server } from "@modelcontextprotocol/sdk/server/index.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import {
@@ -95,7 +95,7 @@ const handlers: Record<RpcMethodName, RpcHandler> = {
         const call = {
             contractAddress: request.contract_address,
             calldata: request.calldata,
-            entrypoint: request.entry_point_selector,
+            entrypoint: hash.getSelectorFromName(request.entry_point_selector),
         };
         const blockId = extractBlockId(block_id);
         return await starknet.callContract(call, blockId);

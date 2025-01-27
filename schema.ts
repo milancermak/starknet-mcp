@@ -47,7 +47,7 @@ const EVENT_FILTER = z.object({
 // Function call schema
 const FUNCTION_CALL = z.object({
     contract_address: ADDRESS,
-    entry_point_selector: FELT,
+    entry_point_selector: z.string(), // selector hashing is done in the handler
     calldata: z.array(FELT),
 });
 
