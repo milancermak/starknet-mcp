@@ -28,6 +28,8 @@ starknet_specVersion
 
 Write methods are not yet supported.
 
+<a href="https://glama.ai/mcp/servers/kfj96s92mg"><img width="380" height="200" src="https://glama.ai/mcp/servers/kfj96s92mg/badge" alt="Starknet Server MCP server" /></a>
+
 ## Installation
 
 Install [Bun](https://bun.sh/). Clone this repo. Install the dependencies with `bun install`. Update Claude's MCP config - see [instructions](https://modelcontextprotocol.io/quickstart/user) for your particular OS. You'll want something like this in the `claude_desktop_config.json` file:
