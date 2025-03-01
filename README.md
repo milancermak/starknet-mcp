@@ -28,7 +28,7 @@ starknet_specVersion
 
 Write methods are not yet supported.
 
-<a href="https://glama.ai/mcp/servers/kfj96s92mg"><img width="380" height="200" src="https://glama.ai/mcp/servers/kfj96s92mg/badge" alt="Starknet Server MCP server" /></a>
+<a href="https://glama.ai/mcp/servers/kfj96s92mg"><img width="380" height="200" src="https://glama.ai/mcp/servers/kfj96s92mg/badge" alt="Starknet Server MCP" /></a>
 
 ## Installation
 
